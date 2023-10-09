@@ -1,0 +1,274 @@
+* {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+
+  .bar {
+    border-color: lightgrey;
+    box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07);
+
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 80px;
+  }
+
+  .logo {
+    width: 25%;
+    margin-block: 10px;
+  }
+
+  .medium-logo {
+    width: 45%;
+  }
+
+  .icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .single-icon {
+    font-size: 25px;
+    color: rgb(139, 137, 137);
+  }
+
+  .btn {
+    height: 25px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: lightgray;
+  }
+
+  .big-columns {
+    display: flex;
+  }
+
+  .sx-column {
+    width: 50%;
+    aspect-ratio: 1/2;
+    margin-left: 10%;
+    border-right: solid 1px lightgray;
+  }
+
+  .dx-column {
+    width: 40%;
+    aspect-ratio: 1/2;
+    margin-top: 25px;
+  }
+
+  .suggest {
+    width: 95%;
+    border-bottom: solid 1px lightgray;
+  }
+
+  .suggest p,
+  .suggest h4 {
+    display: inline-block;
+    margin-top: 8%;
+    font-size: smaller;
+  }
+  .suggest p {
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+
+  .underlined{
+    width: 30%;
+    border-bottom: solid 1px black;
+    text-align: center;
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .card {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .suggest p,
+  .card p,
+  .card span,
+  .label p,
+  .saved span,
+  #grey-line,
+  .final-spans span {
+    color: gray;
+  }
+
+  .card span,
+  .label p,
+  .saved span,
+  #grey-line {
+    font-size: smaller;
+  }
+
+  #grey-line {
+    text-decoration: underline;
+  }
+
+  .first-line {
+    display: flex;
+    align-items: center;
+  }
+
+  .first-line ion-icon {
+    font-size: 22px;
+    padding-right: 5px;
+  }
+
+
+  .main-content {
+    width: 70%;
+  }
+
+  .card img {
+    width: 25%;
+    aspect-ratio: 2/1.4;
+  }
+
+  .with-dot::before {
+    text-align: center;
+    content: " · ";
+  }
+
+  .last-line {
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dx-column img {
+    max-width: 50px;
+  }
+
+  .dx-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .logo-line {
+    display: flex;
+    align-items: center;
+  }
+
+  .dx-logos p {
+    width: 50%;
+    text-align: center;
+    font-size: large;
+  }
+
+  .twitter {
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: lightgrey;
+    border-radius: 40px;
+    background-color: white;
+  }
+
+  .recommendations {
+    margin-left: 10%;
+    padding-top: 25px;
+    width: 70%;
+    border-top: solid 1px lightgray;
+  }
+
+  .dx-buttons {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .dx-buttons span {
+    display: flex;
+    align-items: center;
+    max-width: 30%;
+    height: 40px;
+    padding-inline: 15px;
+    background-color: rgb(245, 241, 241);
+    border-radius: 20px;
+  }
+
+  .three-btns {
+    display: flex;
+    gap: 10px;
+  }
+
+  .two-btns {
+    display: flex;
+    gap: 10px;
+  }
+
+  .recommendations img {
+    height: 50px;
+    border-radius: 100px;
+  }
+
+  .label {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .label-content {
+    padding-inline: 20px;
+    width: 65%;
+  }
+
+  .label-content h4 {
+    margin: 0;
+  }
+  .label-content p {
+    margin: 0;
+    margin-top: 3px;
+  }
+
+  .label-button,
+  .img-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .label-button button {
+    width: 70px;
+    aspect-ratio: 1/0.5;
+    background-color: white;
+    border-color: lightgray;
+    border-radius: 20px;
+  }
+
+  .all,
+  .see {
+    margin-bottom: 40px;
+  }
+
+  .see{
+    color: green;
+  }
+
+  .saved {
+    padding-bottom: 20px;
+    width: 70%;
+  }
+
+  .saved h3 {
+    margin: 0;
+    margin-block: 7px;
+  }
+
+  .final-spans {
+    padding-top: 40px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+  }
